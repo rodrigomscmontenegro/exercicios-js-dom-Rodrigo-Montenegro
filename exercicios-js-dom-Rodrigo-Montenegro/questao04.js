@@ -1,5 +1,5 @@
 function validarFormulario() {
-    const nome = document.getElementById('nome').value.trim(); // .trim() remove espaços em branco no início e fim
+    const nome = document.getElementById('nome').value.trim();
     const cpf = document.getElementById('cpf').value.trim();
     const mensagemParagrafo = document.getElementById('mensagem');
 
@@ -22,4 +22,5 @@ function validarFormulario() {
 
     mensagemParagrafo.innerText = 'Cadastro validado com sucesso!';
     mensagemParagrafo.style.color = 'green';
+
 }
